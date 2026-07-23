@@ -60,7 +60,7 @@ section{
 }
 /* Table */
 table{
-    width:100%;
+    width:90%;
     border-collapse:collapse;
 }
 table,th,td{
@@ -94,4 +94,37 @@ button{
 }
 button:hover{
     background:#00b4d8;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    width: 90%;
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 300px;
+    }
 }
