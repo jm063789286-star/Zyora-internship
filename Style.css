@@ -60,7 +60,7 @@ section{
 }
 /* Table */
 table{
-    width:90%;
+    width:100%;
     border-collapse:collapse;
 }
 table,th,td{
@@ -96,7 +96,7 @@ button:hover{
     background:#00b4d8;
 }
 .container {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -117,7 +117,7 @@ button:hover{
 }
 
 /* Tablet & Desktop */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .cards {
         flex-direction: row;
         flex-wrap: wrap;
