@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
-    <button id="darkBtn">🌙 Dark Mode</button>
 </head>
 <body>
 
@@ -76,6 +75,19 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message"></textarea><br><br>
         <input type="submit" value="Send">
+        <button id="darkBtn">🌙 Dark Mode</button>
+        
+        <form id="contactForm">
+    <input type="text" id="name" placeholder="Enter Name"><br><br>
+
+    <input type="email" id="email" placeholder="Enter Email"><br><br>
+
+    <textarea id="message" placeholder="Enter Message"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<p id="result"></p>
     </form>
 </section>
 </main>
